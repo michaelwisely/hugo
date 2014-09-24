@@ -3,3 +3,4 @@ node_modules
 *~
 brain-dump.json
 log.*
+secret.sh
