@@ -2,4 +2,5 @@
  "polite.coffee",
  "abstract.coffee",
  "nice.coffee",
- "eight-ball.coffee"]
+ "eight-ball.coffee",
+ "ascii.coffee"]
