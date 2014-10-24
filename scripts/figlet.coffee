@@ -18,4 +18,4 @@ module.exports = (robot) ->
       if err
         msg.reply "I couldn't figlet that :C"
       else
-        msg.reply data
+        msg.reply "\n" + data
