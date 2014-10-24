@@ -21,12 +21,13 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "figlet": "^1.1.0",
     "hubot": ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-irc": "~0.2.7",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-tell": "~1.2.3",
     "jsdom": "~1.0.0-pre.6",
     "request": "~2.42.0",
-    "hubot-tell": "~1.2.3",
     "url-join": "0.0.1"
   },
   "engines": {
