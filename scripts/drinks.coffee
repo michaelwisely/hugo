@@ -8,8 +8,9 @@
 #   None
 
 module.exports = (robot) ->
-  locations = ['grotto', 'el mags', 'hometown grill',
-    ]
+  locations = ['grotto', 'el mags', 'public house', 'speakeasy', 
+    'locker room', 'buffalo wild wings', 't-patch', 'somewhere else',
+    'benton square']
 
   picker = (msg) ->
     place = locations[Math.floor(Math.random() * locations.length)]
