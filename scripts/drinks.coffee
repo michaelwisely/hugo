@@ -10,7 +10,7 @@
 module.exports = (robot) ->
   locations = ['grotto', 'el mags', 'public house', 'speakeasy', 
     'locker room', 'buffalo wild wings', 't-patch', 'somewhere else',
-    'benton square', 'los arcos tequila/mezcal bar']
+    'benton square', 'los arcos mezcal bar']
 
   picker = (msg) ->
     place = locations[Math.floor(Math.random() * locations.length)]
@@ -21,3 +21,5 @@ module.exports = (robot) ->
   robot.respond /me so thirsty/i, picker
   robot.respond /am sober/i, picker
   robot.respond /am soober/i, picker
+  robot.respond /I'm thinking too clearly/i, picker
+  robot.respond /my brain too smart/i, picker
