@@ -8,9 +8,9 @@
 #   None
 
 module.exports = (robot) ->
-  locations = ['atc', 'thai', 'grotto', 'motomo', 'las casadores',
+  locations = ['atc', 'thai', 'grotto', 'mottomo', 'los casadores',
     'el mags', 't-patch', 'randys', 'nature girls', 'leonas',
-    'hometown grill', 'pryors', 'alexs', 'penelopes',
+    'pizza inn', 'pryors', 'alexs', 'penelopes',
     'campus perk', 'maid rite', 'bandanas', 'odoggys']
 
   picker = (msg) ->
