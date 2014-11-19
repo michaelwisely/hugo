@@ -12,9 +12,10 @@ figlet = require 'figlet'
 
 module.exports = (robot) ->
 
-  robot.respond /figlet me (.*)/i, (msg) ->
-    text = msg.match[1]
-    figlet text, (err, data) ->
+  robot.respond /(using (.*) )?figlet me (.*)/i, (msg) ->
+    font = msg.match[2] or 'Standard'
+    text = msg.match[3]
+    figlet text, font: font, (err, data) ->
       if err
         msg.reply "I couldn't figlet that :C"
       else
