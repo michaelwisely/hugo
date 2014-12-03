@@ -6,6 +6,7 @@
 #
 # Commands:
 #   hugo figlet me <text>
+#   hugo using <font> figlet me <text>
 #
 
 figlet = require 'figlet'
