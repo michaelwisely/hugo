@@ -29,6 +29,9 @@ module.exports = (robot) ->
     res.send 'OK'
 
   robot.respond /is aigaion up?/i, (msg) ->
+			msg.send "Ding dong, the witch is dead!"
+			return
+
       if not aigaionUrl
         msg.send "I don't know where Aigaion is running. Can someone set my AIGAION_BASE_URL variable, please?"
         return
