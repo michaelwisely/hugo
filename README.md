@@ -45,10 +45,11 @@ bin/hubot -a irc --name hugo
 ~~~
 
 If you want to run him in a shell (for debuggin'), leave off the adapter flag.
+As noted below, set the ``FILE_BRAIN_PATH`` variable equal to ``.`` to store the brain file locally.
 
 ~~~
 
-bin/hubot --name hugo
+FILE_BRAIN_PATH=. bin/hubot --name hugo
 
 ~~~
 

@@ -4,3 +4,4 @@ node_modules
 brain-dump.json
 log.*
 secret.sh
+.hubot_history
