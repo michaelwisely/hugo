@@ -1,25 +1,31 @@
 {
-  "name": "hosted-hubot",
+  "name": "hugo-hubot",
   "version": "2.7.1",
+
   "private": true,
-  "author": "GitHub Inc.",
+  "author": "michaelwisely and contributors",
+
   "keywords": [
     "github",
     "hubot",
-    "campfire",
+    "irc",
     "bot"
   ],
-  "description": "A simple helpful robot for your Company",
+
+  "description": "a Hubot for \"research\".",
+
   "licenses": [
     {
       "type": "MIT",
       "url": "https://github.com/github/hubot/raw/master/LICENSE"
     }
   ],
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/michaelwisely/hugo"
   },
+
   "dependencies": {
     "figlet": "^1.1.0",
     "hubot": ">= 2.6.0 < 3.0.0",
@@ -27,9 +33,9 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-tell": "~1.2.3",
     "jsdom": "~1.0.0-pre.6",
-    "request": "~2.42.0",
-    "url-join": "0.0.1"
+    "request": "~2.42.0"
   },
+
   "engines": {
     "node": ">= 0.8.x",
     "npm": ">= 1.1.x"
