@@ -6,7 +6,7 @@
 #
 # Commands:
 #   hubot figlet me <text>
-#   hubut using <font> figlet me <text>
+#   hubot using <font> figlet me <text>
 #
 
 figlet = require 'figlet'
