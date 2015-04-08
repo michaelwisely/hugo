@@ -5,8 +5,8 @@
 #   None
 #
 # Commands:
-#   hugo figlet me <text>
-#   hugo using <font> figlet me <text>
+#   hubot figlet me <text>
+#   hubut using <font> figlet me <text>
 #
 
 figlet = require 'figlet'
