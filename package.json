@@ -1,47 +1,40 @@
 {
   "name": "hugo-hubot",
   "version": "2.7.1",
-
   "private": true,
   "author": "michaelwisely and contributors",
-
   "keywords": [
     "github",
     "hubot",
     "irc",
     "bot"
   ],
-
   "description": "a Hubot for \"research\".",
-
   "licenses": [
     {
       "type": "MIT",
       "url": "https://github.com/github/hubot/raw/master/LICENSE"
     }
   ],
-
   "repository": {
     "type": "git",
     "url": "https://github.com/michaelwisely/hugo"
   },
-
   "dependencies": {
     "figlet": "^1.1.0",
     "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot-heroku-keepalive": "0.0.4",
     "hubot-irc": "~0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-tell": "~1.2.3",
     "jsdom": "~1.0.0-pre.6",
     "request": "~2.42.0"
   },
-
   "engines": {
     "node": ">= 0.8.x",
     "npm": ">= 1.1.x"
   },
-
   "scripts": {
-    "start": "FILE_BRAIN_PATH=$OPENSHIFT_DATA_DIR PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS bin/hubot -a irc -n hugo"
+    "start": "FILE_BRAIN_PATH=$OPENSHIFT_DATA_DIR PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HUBOT_HEROKU_KEEPALIVE_URL=$OPENSHIFT_APP_DNS bin/hubot -a irc -n hugo"
   }
 }

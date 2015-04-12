@@ -1,1 +1,4 @@
-["hubot-tell"]
+[
+    "hubot-tell",
+    "hubot-heroku-keepalive"
+]
