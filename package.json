@@ -26,6 +26,7 @@
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-irc": "~0.2.7",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-substitute": "^0.2.0",
     "hubot-tell": "~1.2.3",
     "jsdom": "~3",
     "request": "~2.55"

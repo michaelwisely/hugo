@@ -1,4 +1,5 @@
 [
     "hubot-tell",
-    "hubot-heroku-keepalive"
+    "hubot-heroku-keepalive",
+    "hubot-substitute"
 ]
