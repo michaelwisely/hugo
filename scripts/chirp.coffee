@@ -22,4 +22,4 @@ module.exports = (robot) ->
       msg.send "/me makes cricket sound"
 
     # Set 2 hour timeout
-    chirp_timeout = setTimeout cb, 1000 * 60 * 60 * 2
+    chirp_timeout = setTimeout cb, 1000 * 60 * 60 * 24
